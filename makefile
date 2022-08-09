@@ -5,9 +5,9 @@ CFLAGS=-I
 target = main
 
 target:main.o
-	g++ code/main.o -o bin/main
+	g++ ./code/main.o -o ./bin/main
 main.o:main.cpp
-	g++ code/main.cpp -c -o main.o
+	g++ ./code/main.cpp -c -o ./code/main.o
 
 .PHONY:clean
 
