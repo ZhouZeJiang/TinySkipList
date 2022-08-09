@@ -96,6 +96,12 @@ Google开源的KV存储引擎LevelDB他们内部都使用了跳表这种数据�
 | 加载数据 |    load_file()    |
 
 
+# 项目运行
+
+```shell
+# make
+# main
+```
 
 # 运行结果
 
@@ -168,10 +174,9 @@ key:32079    value:zhou
 
 
 # 性能测试
-
-环境：win11+i7-9700K+内存32G
-
-IDE：Clion
+```shell
+sh test.sh
+```
 
 跳表高度：20
 
