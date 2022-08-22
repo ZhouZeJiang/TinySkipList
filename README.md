@@ -85,19 +85,22 @@ Google开源的KV存储引擎LevelDB他们内部都使用了跳表这种数据�
 目录树
 ```
 .
-├── code           源代码
-│   ├── skiplist_implement.h
-│   ├── Node.h
-│   ├── skiplist.h
-│   └── main.cpp
-│   └── stress_test.cpp
-│   └── makefile
-├── test           单元测试
-│   ├── stress
-├── bin            可执行文件
-│   └── main
-├── test.sh
-
+├── bin
+│   ├── index
+│   └── main
+├── code
+│   ├── main.cpp
+│   ├── main.o
+│   ├── makefile
+│   ├── Node.h
+│   ├── skiplist.h
+│   ├── skiplist_implement.h
+│   └── stress_test.cpp
+├── README.md
+├── store
+│   └── dumpFile
+├── test
+└── test.sh
 
 ```
 
